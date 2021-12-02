@@ -19,5 +19,6 @@ def min_to_human_readable(minutes):
         rem_min_plural = "s"
     else:
         rem_min_plural = ""
+        
     return [f"{str(days)} day{days_plural}", f"{str(hours).zfill(2)} hour{hours_plural}", f"{str(rem_min).zfill(2)} minute{rem_min_plural}"]
   
